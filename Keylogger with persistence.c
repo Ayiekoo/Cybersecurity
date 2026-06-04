@@ -1,5 +1,4 @@
 /*
- * Educational Keylogger with Persistence
  * Demonstrates: Windows API hooking, file hiding, registry persistence
  * FOR AUTHORIZED SECURITY RESEARCH ONLY
  */
