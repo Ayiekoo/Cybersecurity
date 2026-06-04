@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """
-Educational Credential Harvester and Phishing Framework
 Demonstrates: Social engineering, credential theft, session hijacking
 FOR AUTHORIZED SECURITY TESTING ONLY
 """
