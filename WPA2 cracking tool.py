@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """
-Educational WiFi Security Testing Tool
 Demonstrates WPA/WPA2 handshake capture and cracking
 FOR AUTHORIZED TESTING AND EDUCATION ONLY
 """
