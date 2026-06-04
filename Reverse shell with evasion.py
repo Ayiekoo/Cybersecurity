@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """
-Educational Reverse Shell with Evasion Techniques
 Demonstrates C2 communication, persistence, and anti-analysis
 FOR AUTHORIZED PENETRATION TESTING ONLY
 """
