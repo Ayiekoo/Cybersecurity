@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """
-Educational Trojan Horse - Image Viewer Example
 FOR EDUCATIONAL AND AUTHORIZED TESTING ONLY
 This demonstrates how trojans hide malicious functionality behind legitimate features
 """
