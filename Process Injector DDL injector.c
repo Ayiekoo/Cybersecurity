@@ -1,5 +1,4 @@
 /*
- * Educational Process Injector
  * Demonstrates: Process hollowing, DLL injection, API hooking
  * FOR AUTHORIZED SECURITY RESEARCH ONLY
  */
