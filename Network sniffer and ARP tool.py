@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """
-Educational Network Sniffer and ARP Spoofer
 Demonstrates MITM attacks, packet capture, and network reconnaissance
 FOR AUTHORIZED TESTING ONLY
 """
