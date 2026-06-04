@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """
-Educational Botnet with DDoS Module
 Demonstrates: C2 infrastructure, distributed attacks, bot coordination
 FOR AUTHORIZED SECURITY TESTING ONLY
 """
