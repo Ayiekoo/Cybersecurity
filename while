@@ -1,0 +1,51 @@
+num=0
+while [ $num -lt 10 ] # This condition provides for numbers less than 10.
+do 
+    echo = $num
+    num=$((num+1))
+done
+
+# This code prints numbers less than 10.
+# We start by stating that the number is zero
+
+# A brief explanation of the WHILE FUNCTION
+
+
+num=0
+while [ CONDITION ]
+    do # do something
+        echo $num
+        # num=$((num+1)) what happens if we remove this line of code?
+    done
+
+
+# Here's a explanation
+num=123
+while [ $num -gt 101 ]
+do
+    # Do something
+dot
+
+# The "DO SOMETHING" line of code can mean a lot of things.
+# In this example, "DO SOMETHING" is as followes
+echo $num
+num=$((num+2)) # This code implies the addition of the value 2 to the original number
+
+# The "WHILE" function is more or less similar to to "FOR"
+# See the example below
+
+num=66
+for i in [ 1..100]
+do
+    echo $num
+    num=$((num+4))
+done
+
+
+# Let's use the example to explain
+num=0
+for i in {1..100}
+do # do something
+    echo $num
+    num=$((num+1)) # This is what is being done; adding 1 to the num that has been called.
+done
